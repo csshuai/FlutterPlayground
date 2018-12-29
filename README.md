@@ -21,6 +21,13 @@ Contains list examples I have created.
 | ------------------ | ------------------ | ------------------ |
 | <img src="./preview/text_span.png" height="400" alt="Screenshot"/>  | <img src="./preview/text_underline.png" height="400" alt="Screenshot"/>  | <img src="./preview/about_list_tile.png" height="400" alt="Screenshot"/>  |
 
+| Rotated Box | Grid Paper | Expansion Tile |
+| ------------------ | ------------------ | ------------------ |
+| <img src="./preview/rotated_box.png" height="400" alt="Screenshot"/>  | <img src="./preview/GridPaper.jpg" height="400" alt="Screenshot"/>  | <img src="./preview/expansion_tile.png" height="400" alt="Screenshot"/>  |
+
+| BackdropFilter |
+| ------------------ |
+| <img src="./preview/backdrop_filter.png" height="400" alt="Screenshot"/>  |
 
 | Collapsible Toolbar | Bottom Navigation | Animated Icons |
 | ------------------ | --------------------------- | ------------------ |
@@ -36,9 +43,13 @@ Contains list examples I have created.
 | ------------------ | --------------------------- | ------------------ |
 | <img src="./preview/tab_bar.gif" height="400" alt="Screenshot"/>  | <img src="./preview/ListGrid.gif" height="400" alt="Screenshot"/> | <img src="./preview/Hardware.gif" height="400" alt="Screenshot"/> |
 
-| AnimatedSwitcher |
+| AnimatedSwitcher | Nested List | Rotation Transition |
+| ------------------ | ------------------ | ------------------ |
+| <img src="./preview/AnimatedSwitcher.gif" height="400" alt="Screenshot"/>  | <img src="./preview/nested_list.gif" height="400" alt="Screenshot"/>  | <img src="./preview/RotationTransition.gif" height="400" alt="Screenshot"/>  |
+
+| Google Maps Example |
 | ------------------ |
-| <img src="./preview/AnimatedSwitcher.gif" height="400" alt="Screenshot"/>  |
+| <img src="./preview/google_maps_example.gif" height="400" alt="Screenshot"/>  |
 
 ## Getting Started
 
@@ -65,6 +76,7 @@ Hit me on
 > If you found this project helpful or you learned something from the source code and want to thank me, consider buying me a cup of :coffee:
 >
 > - [PayPal](https://www.paypal.me/ibhavikmakwana)
+> - Google Pay **(bhavikmakwana43@okhdfcbank)**
 
 ## License
 

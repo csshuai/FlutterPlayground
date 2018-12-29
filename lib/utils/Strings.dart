@@ -26,11 +26,28 @@ class Strings {
   static const String dragDropExampleRoute = "/Drag and Drop";
   static const String animatedSwitcherExampleRoute = "/AnimatedSwitcher";
   static const String textExampleExampleRoute = "/Text Examples";
+  static const String lifeCycleStateExampleRoute = "/Lifecycle State";
   static const String aboutListTileExampleRoute = "/AboutListTile";
-
-  //Text specific routes
+  static const String rotatedBoxExampleRoute = "/RotatedBox Example";
   static const String textSpanExampleRoute = "/Text Span";
   static const String textUnderlineExampleRoute = "/Text Underline";
+  static const String localAuthExampleRoute = "/Local authentication Example";
+  static const String nestedListExampleRoute = "/Nested Example";
+  static const String cupertinoTimerPickerRoute =
+      "/CupertinoTimerPicker Example";
+  static const String CupertinoActionSheetRoute =
+      "/CupertinoActionSheet Example";
+  static const String CupertinoProgressIndicatorRoute =
+      "/CupertinoProgressIndicator Example";
+  static const String GridPaperRoute = "/GridPaper Example";
+  static const String ChipsExampleRoute = "/Chips Example";
+  static const String ExpansionTileRoute = "/Expansion Tile Example";
+  static const String RotationTransitionRoute = "/Rotation Transition Example";
+  static const String FlowWidgetExampleRoute = "/Flow Widget Example";
+  static const String dismissibleExampleRoute = "/Dismissible Example";
+  static const String BackdropFilterExampleRoute = "/BackdropFilter Example";
+  static const String googleMapsExampleRoute = "/Google Maps Example";
+  static const String toolTipExampleRoute = "/ToolTip Example";
 
   ///Strings
   //Titles
@@ -49,9 +66,29 @@ class Strings {
   static const String dragDropExampleTitle = "Drag and Drop";
   static const String animatedSwitcherExampleTitle = "AnimatedSwitcher";
   static const String textExampleExampleTitle = "Text Examples";
+  static const String lifeCycleStateExampleTitle = "Lifecycle State";
   static const String aboutListTileExampleTitle = "AboutListTile";
+  static const String localAuthTitle = "Local authentication Example";
+  static const String rotatedBoxTitle = "RotatedBox Example";
+  static const String nestedListTitle = "Nested Example";
 
-  //Text specific
+  static const String cupertinoTimerPickerTitle =
+      "CupertinoTimerPicker Example";
+  static const String CupertinoActionSheetTitle =
+      "CupertinoActionSheet Example";
+  static const String CupertinoProgressIndicatorTitle =
+      "CupertinoProgressIndicator Example";
+  static const String GridPaperTitle = "GridPaper Example";
+  static const String ChipsExampleTitle = "Chips Example";
+  static const String ExpansionTileTitle = "Expansion Tile Example";
+
+  static const String RotationTransitionTitle = "Rotation Transition Example";
+
   static const String textSpanExampleTitle = "Text Span";
   static const String textUnderlineExampleTitle = "Text Underline";
+  static const String FlowWidgetExampleTitle = "Flow Widget Example";
+  static const String dismissibleExampleTitle = "Dismissible Example";
+  static const String BackdropFilterExampleTitle = "BackdropFilter Example";
+  static const String googleMapsExampleTitle = "Google Maps Example";
+  static const String toolTipExampleTitle = "ToolTip Example";
 }

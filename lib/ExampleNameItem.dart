@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_examples/models/ExapmleNames.dart';
+import 'package:flutter_playground/models/ExapmleNames.dart';
 import 'package:meta/meta.dart';
 
 /// A [ExampleNameItem] to display a [ExampleNames].
@@ -21,9 +21,9 @@ class ExampleNameItem extends StatelessWidget {
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(4.0)),
       elevation: 4.0,
       child: Container(
-        decoration: new BoxDecoration(
-          border: new Border(
-            left: new BorderSide(
+        decoration: BoxDecoration(
+          border: Border(
+            left: BorderSide(
               width: 4.0,
               color: Colors.lightGreen,
             ),
@@ -34,20 +34,26 @@ class ExampleNameItem extends StatelessWidget {
             Navigator.pushNamed(context, "/${exampleNames.title}");
           },
           child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisSize: MainAxisSize.max,
             children: <Widget>[
               Expanded(
-                child: Padding(
-                  padding: const EdgeInsets.all(16.0),
-                  child: new Text(
+                child: Container(
+                  margin: EdgeInsets.symmetric(vertical: 16.0, horizontal: 8.0),
+                  child: Text(
                     exampleNames.title,
+                    softWrap: true,
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
                   ),
                 ),
               ),
-              new Icon(
-                Icons.chevron_right,
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Icon(
+                  Icons.chevron_right,
+                ),
               ),
             ],
           ),
@@ -56,3 +62,4 @@ class ExampleNameItem extends StatelessWidget {
     );
   }
 }
+
